@@ -27,7 +27,7 @@ public class Main {
 		    		usu.obtemDadoPorNome(nome);
 		    		break;
 		    	default:
-		    		JOptionPane.showMessageDialog(null, "Usuario digitado ERRADO");
+		    		JOptionPane.showMessageDialog(null, "Opção digitado ERRADO");
 		    		break;
 		    	}
 		
