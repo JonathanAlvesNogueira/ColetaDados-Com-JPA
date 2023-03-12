@@ -19,7 +19,7 @@ public class Main {
 		    			+ "\n 2-procurar por nome "));
 		    	switch(opc) {
 		    	case 1:
-		    		int id = Integer.parseInt(JOptionPane.showInputDialog("Informe a opção"));
+		    		int id = Integer.parseInt(JOptionPane.showInputDialog("Informe o id do usuario"));
 		    		usu.obtemDadoPorId(id);
 		    		break;
 		    	case 2:
