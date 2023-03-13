@@ -97,6 +97,8 @@ public class Usuario {
 		} else {
 			System.out.println("Não existe esse usuario");
 		}
+		em.close();
+		emf.close();
 
 	}
 
